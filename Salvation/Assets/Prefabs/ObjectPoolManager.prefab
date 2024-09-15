@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2355429602428355696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127504111527298436}
+  - component: {fileID: 2568382936440616876}
+  m_Layer: 0
+  m_Name: ObjectPoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1127504111527298436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2355429602428355696}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3984412, y: -2.6873808, z: -0.01383516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2568382936440616876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2355429602428355696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3235da063d484f144ac963908a51f6bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectInfos:
+  - objectName: GhostUp
+    prefab: {fileID: 3558797663234089673, guid: 99d22a5fd5d1add4f8aa77c38e26450d, type: 3}
+    count: 3
+  - objectName: Hellfire
+    prefab: {fileID: 8614025749507423154, guid: 18ee41c024a2bdb47994a4307b17b26b, type: 3}
+    count: 3
+  - objectName: Lightning
+    prefab: {fileID: 7144614978693948973, guid: 349b18ae2728390448b4d6ccca5e6ac3, type: 3}
+    count: 2
+  - objectName: GhostLeft
+    prefab: {fileID: 9153245149929266947, guid: 9947976e349717246b254cef98763d1a, type: 3}
+    count: 2
+  - objectName: GhostRight
+    prefab: {fileID: 7072381168586750317, guid: 6e5b773747d1c3f4782a962855e129c5, type: 3}
+    count: 2
+  - objectName: ClearZone
+    prefab: {fileID: 683286927806660312, guid: 92465c0742933e849b0c51ed2354c4f4, type: 3}
+    count: 1
+  - objectName: Gypshophila
+    prefab: {fileID: 388194121385145320, guid: 2afd376d0a570b04ba50abc4cc1a182b, type: 3}
+    count: 1
+  - objectName: Light
+    prefab: {fileID: 5525806812510333215, guid: 9be52423fed88f0439c3fd1474806dd6, type: 3}
+    count: 1
+  - objectName: MemoryPiece
+    prefab: {fileID: 4626226445201995104, guid: bc0d6f9074f8bd84aa48d32460ae1d8e, type: 3}
+    count: 1
