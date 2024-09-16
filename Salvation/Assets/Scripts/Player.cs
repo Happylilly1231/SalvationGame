@@ -54,6 +54,10 @@ public class Player : MonoBehaviour
         {
             SlideBtnUp(); // 슬라이드 뗐을 때
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameManager.instance.Pause(); // 일시정지
+        }
     }
 
     // 점프
