@@ -64,7 +64,7 @@ public class MainMenuUIManager : MonoBehaviour
             tutorialFirstText.SetActive(true);
         }
 
-        if (DataManager.instance.data.isUnlock[GameManager.instance.maxStageNum - 1] == true)
+        if (DataManager.instance.data.isClear[GameManager.instance.maxStageNum - 1] == true)
         {
             gameEndingBtn.SetActive(true);
         }
